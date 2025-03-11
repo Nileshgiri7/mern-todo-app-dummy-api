@@ -1,0 +1,25 @@
+.popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .popup button {
+    margin: 5px;
+    padding: 8px 12px;
+    background: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background: #005bb5;
+  }
+  
